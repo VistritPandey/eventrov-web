@@ -2,27 +2,27 @@ import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Streamlining the Event Planning Process',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'Eventrov provides an online marketplace platform that serves as a one-stop-shop for event planning. Our vision for the future is a thriving, globally-connected events industry that saves time and resources, and results in memorable high quality events',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Comprehensive Offerings',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      'We connect event planners with a broad spectrum of service providers and vendors such as venue owners, security companies, DJs, artists, lighting/production companies, bartending companies, medical services, lawyers, marketing, graphic designers and more.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Grow your career',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Eventrov offers a community for vendors and artists to market their services for free and attract more clients. Use SEO to your advantage to boost your reach and receive more bookings. Join our community and grow your network.',
     icon: ArrowPathIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'Advanced Technology',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Eventrov uses advanced AI and ML tools to provide you with the best deal. Our platform is designed to be user-friendly and intuitive, and we are constantly improving our technology to provide you with the best experience possible.',
     icon: FingerPrintIcon,
   },
 ]
@@ -32,13 +32,12 @@ export default function Feature() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">Coming Soon</h2>
+          <h2 className="text-base font-semibold leading-7 text-indigo-600">About Us</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to deploy your app
+            Everything you need for an event
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+          Eventrov is a platform that connects event organizers, venues, vendors, and artists in a seamless, user-friendly online environment leveraging advanced search and recommendation algorithms to match event organizers with ideal providers
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
