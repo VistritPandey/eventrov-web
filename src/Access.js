@@ -2,19 +2,19 @@ const callouts = [
     {
       name: 'For Event Planners',
       description: 'Find the best artists, DJs and performers. Discover perfect venues based on your preference. Book trusted service providers/vendors for lighting, sound and other essentials.',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+      imageSrc: 'https://img1.wsimg.com/isteam/stock/87432/:/cr=t:0%25,l:16.64%25,w:66.73%25,h:100%25/rs=w:730,h:730,cg:true',
       href: 'https://eventrov.com/contact-us#85f2e26a-f168-4699-add7-3a23ba5c9f9a',
     },
     {
       name: 'For Artists and Performers',
       description: 'Showcase your talent to a vast network of event planners. Get booked for events that match your style and preferences. Build connections without the need for a manager',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+      imageSrc: 'https://img1.wsimg.com/isteam/stock/9E9mldx/:/cr=t:0%25,l:16.67%25,w:66.67%25,h:100%25/rs=w:730,h:730,cg:true',
       href: 'https://forms.gle/VrxMKkbx9HfTHF1q7',
     },
     {
       name: 'For Venues and Vendors/Service Providers',
       description: 'List your venue or services for free and get discovered by the right event planners. Manage bookings and inquiries effortlessly. Increase your visibility using SEO ',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+      imageSrc: 'https://img1.wsimg.com/isteam/stock/6238/:/cr=t:0%25,l:16.67%25,w:66.67%25,h:100%25/rs=w:730,h:730,cg:true',
       href: 'https://forms.gle/R5JJJ6mX47W9CWQM8',
     },
   ]
