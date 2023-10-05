@@ -21,7 +21,7 @@ export default function About() {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Eventrov</span>
               <img
-                className="h-8 w-auto"
+                className="h-12 w-auto"
                 src={Logo}
                 alt=""
               />
