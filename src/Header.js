@@ -5,7 +5,7 @@ import Logo from "./images/Logo.png"
 
 const navigation = [
   { name: 'About Us', href: '/about' },
-  { name: 'Services', href: '#' },
+  { name: 'Services', href: '/services' },
   { name: 'Our Team', href: '#' },
   { name: 'Contact Us', href: '/contact' },
 ]
