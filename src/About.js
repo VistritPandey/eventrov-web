@@ -36,11 +36,8 @@ export default function Example() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-indigo-600">About Us</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">A better workflow</h1>
-              <p className="mt-6 text-xl leading-8 text-white">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                eget aliquam. Quisque id at vitae feugiat egestas.
-              </p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">YOUR EVENTS, ALL IN ONE PLACE.</h1>
+              
             </div>
           </div>
         </div>
@@ -55,47 +52,43 @@ export default function Example() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-white lg:max-w-lg">
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                semper sed amet vitae sed turpis id.
+              <li><strong>Expertise:</strong> Get insights directly from the founders of Eventrov, who are deeply rooted in the live events community.</li>
+              <li><strong>Connections:</strong> Access our handpicked network of artists, venues, and vendors. Even before our platform launches, we've got you covered.</li>
+              <li><strong>Simplicity:</strong> Save time and stress. We'll understand your needs and manually connect you with the perfect matches.</li>
               </p>
               <ul role="list" className="mt-8 space-y-8 text-white">
                 <li className="flex gap-x-3">
                   <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-indigo-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
+                    <strong className="font-semibold text-indigo-900">Streamlining the Event Planning Process. </strong>
+                     Eventrov provides an online marketplace platform that serves as a one-stop-shop for event planning. Our vision for the future is a thriving, globally-connected events industry that saves time and resources, and results in memorable high quality events
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-indigo-900">SSL certificates.</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    <strong className="font-semibold text-indigo-900">Comprehensive Offerings.</strong> We connect event planners with a broad spectrum of service providers and vendors such as venue owners, security companies, DJs, artists, lighting/production companies, bartending companies, medical services, lawyers, insurance companies, trash and cleanup companies, photographers, event rental companies, marketing/promoters, graphic designers and more.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-indigo-900">Database backups.</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    <strong className="font-semibold text-indigo-900">Grow your Career.</strong> Eventrov offers a community for vendors and artists to market their services for free and attract more clients. Use SEO to your advantage to boost your reach and receive more bookings. Join our community and grow your network.
                   </span>
                 </li>
               </ul>
-              <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-              </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-indigo-900">No server? No problem.</h2>
+              
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-indigo-900"> FREE Event Consultation with Eventrov's Founders!</h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+              Are you planning an event and overwhelmed with the endless options for venues, artists, and vendors/service providers? Let us simplify that for you.
               </p>
+              <p className="mt-8">
+              <strong>How it works?</strong>
+              <p><strong>Schedule a Session:</strong> Book a time slot that's convenient for you. </p>
+              <p><strong>Discuss Your Vision:</strong> Share the specifics of your event - size, vibe, preferred artists, and more.</p>
+              <p><strong>Get Recommendations:</strong> Receive tailored suggestions for artists, venues, and vendors/service providers.</p>
+              <p>This offer is for a limited time only, and slots are filling up fast. Don't miss out on an opportunity to elevate your event planning experience.</p>
+              Ready to redefine your event planning journey? Book Your Free Consultation Now Free of Cost</p>
             </div>
           </div>
         </div>
