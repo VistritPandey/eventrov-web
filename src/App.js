@@ -6,6 +6,7 @@ import Feature from './Feature';
 import Access from './Access';
 import Home from './Home';
 import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/access" element={<Access />} />
           <Route path="/" element={<Home />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
