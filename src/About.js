@@ -4,13 +4,13 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from "./images/Logo.png"
 
 const navigation = [
-  { name: 'About Us', href: '#' },
+  { name: 'About Us', href: '/about' },
   { name: 'Services', href: '#' },
   { name: 'Our Team', href: '#' },
   { name: 'Contact Us', href: '#' },
 ]
 
-export default function About() {
+function About() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -159,3 +159,5 @@ export default function About() {
     </div>
   )
 }
+
+export default About;
