@@ -1,14 +1,13 @@
 import './App.css';
 import Feature from './Feature';
-import About from './About';
+import HeaderSection from './HeaderSection';
 import Access from './Access';
 import Header from './Header';
 
 function Home() {
   return (
     <div className="App">
-        <Header />
-        <About />
+        <HeaderSection />
         <Feature />
         <Access />
     </div>
