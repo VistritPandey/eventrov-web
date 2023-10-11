@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.16",
     "axios": "^1.5.1",
+    "firebase": "^10.4.0",
     "metaphor-node": "^1.0.22",
     "openai": "^4.11.1",
     "postcss-cli": "^10.1.0",
