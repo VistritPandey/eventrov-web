@@ -25,7 +25,7 @@ function Login() {
           <img
             className="mx-auto h-10 w-auto"
             src={Logo}
-            alt="Liaa"
+            alt="Eventrov"
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-indigo-600">
             Welcome back!
