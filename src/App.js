@@ -9,6 +9,8 @@ import Header from './Header';
 import Footer from './Footer';
 import Contact from './Contact';
 import Testimonial from './Testimonial';
+import Login from './Login';
+import Dashboard from './Dashboard';
 //import Pricing from './Pricing';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/feature" element={<Feature />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="login" element={<Login />} />
           <Route path="/testimonial" element={<Testimonial />} />
           <Route path="/services" element={<Access />} />
           <Route path="/contact" element={<Contact />} />
