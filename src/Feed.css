@@ -1,4 +1,9 @@
-
+.feed{
+    background-color:  rgb(0, 0, 0);
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
 .feed__inputContainer {
     background-color: rgb(0, 0, 0);

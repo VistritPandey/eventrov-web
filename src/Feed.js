@@ -13,6 +13,7 @@ import {
 } from "firebase/firestore";
 import Post from "./Post";
 import "./Feed.css";
+import Dashboard from "./Dashboard";
 
 function Feed() {
   const [user, loading, error] = useAuthState(auth);
@@ -67,6 +68,7 @@ function Feed() {
 
   return (
     <div className="feed">
+      <Dashboard />
       <div className="feed__inputContainer">
         <div className="feed__input">
           <IoCreateOutline />
