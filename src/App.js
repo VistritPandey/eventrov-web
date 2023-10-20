@@ -13,6 +13,7 @@ import Login from './Login';
 import Dashboard from './Dashboard';
 import Register from './Register';
 import Reset from './Reset';
+import Feed from './Feed';
 //import Pricing from './Pricing';
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/feature" element={<Feature />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Feed />} />
           <Route path="login" element={<Login />} />
           <Route path='/reset' element={<Reset />} />
           <Route path='/register' element={<Register />} />

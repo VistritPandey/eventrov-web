@@ -3,7 +3,6 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { useNavigate } from "react-router-dom";
 import { auth, db, logout } from "./Firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
-import "./Dashboard.css";
 
 function Dashboard() {
   const [user, loading, error] = useAuthState(auth);
@@ -17,7 +16,7 @@ function Dashboard() {
       setName(data.name);
     } catch (err) {
       console.error(err);
-      alert("An error occured while fetching user data");
+      alert("An error occurred while fetching user data");
     }
   };
   useEffect(() => {
@@ -25,17 +24,25 @@ function Dashboard() {
     if (!user) return navigate("/");
     fetchUserName();
   }, [user, loading]);
+
   return (
-    <div className="dashboard">
-       <div className="dashboard__container">
-        Logged in as
-         <div>{name}</div>
-         <div>{user?.email}</div>
-         <button className="dashboard__btn" onClick={logout}>
-          Logout
-         </button>
-       </div>
-     </div>
+    <div className="bg-black p-12 rounded-lg shadow-lg flex flex-col items-center text-center mt-4">
+      <div className="w-20 h-20 rounded-full overflow-hidden mb-4">
+        <img
+          src={user?.photoURL}
+          alt="User Profile"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="text-xl font-bold text-indigo-900 mb-4">Hey, {name}</div>
+      <button
+        className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-blue-600"
+        onClick={logout}
+      >
+        Logout
+      </button>
+    </div>
   );
 }
+
 export default Dashboard;
