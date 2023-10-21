@@ -29,7 +29,7 @@ function Dashboard() {
     <div className="bg-black p-12 rounded-lg shadow-lg flex flex-col items-center text-center mt-4">
       <div className="w-20 h-20 rounded-full overflow-hidden mb-4">
         <img
-          src={user?.photoURL}
+          src={"https://robohash.org/"+name}
           alt="User Profile"
           className="w-full h-full object-cover"
         />
