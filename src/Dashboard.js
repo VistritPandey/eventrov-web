@@ -34,7 +34,9 @@ function Dashboard() {
           className="w-full h-full object-cover"
         />
       </div>
+      <a href="/booking">
       <div className="text-xl font-bold text-indigo-900 mb-4">Hey, {name}</div>
+      </a>
       <button
         className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-blue-600"
         onClick={logout}
