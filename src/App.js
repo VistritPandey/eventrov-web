@@ -14,6 +14,7 @@ import Dashboard from './Dashboard';
 import Register from './Register';
 import Reset from './Reset';
 import Feed from './Feed';
+import Booking from './Booking';
 //import Pricing from './Pricing';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/testimonial" element={<Testimonial />} />
           <Route path="/services" element={<Access />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/booking" element={<Booking />} />
           <Route path="/" element={<Home />} />
         </Routes>
         <Footer />
