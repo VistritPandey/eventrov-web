@@ -15,7 +15,7 @@ function HeaderSection() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-m py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-white hover:ring-white">
               Announcing our next round of funding.{' '}
@@ -29,15 +29,15 @@ function HeaderSection() {
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Join the Community.
             </h1>
-            <p className="mt-6 text-lg leading-8 text-white">
-            Connect with venues, artists, and vendors effortlessly. Plan your event, or get booked - all in one platform.
-            </p>
+            <p className="mt-6 text-xl leading-8 text-white">
+            We are launching a new social community to connect you with individuals who share your vision. Post, interact, collaborate on events, find talent to hire, or get your next gig. This creative community is an outlet for you to share your passion without the stress of how many followers you have or views you get.
+              </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="/register"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Pre-register
+                Join the Waitlist
               </a>
               {/*
               <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
