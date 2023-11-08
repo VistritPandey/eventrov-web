@@ -64,16 +64,6 @@ function Dashboard() {
       <h1 className="text-white text-xl text-center mt-4">
         Thank you for joining the waitlist for our social community. Once you are accepted, you will receive an email from us inviting you to complete your profile.
       </h1>
-      <h1 className="p-12 text-white text-xl text-center mt-4">
-      We are launching a new social community to connect you with individuals who share your vision. Post, interact, collaborate on events, find talent to hire, or get your next gig. This creative community is an outlet for you to share your passion without the stress of how many followers you have or views you get.
-      </h1>
-      <p className="p-8"> </p>
-      <button
-        className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
-        onClick={joinWaitlist}
-      >
-        Join the Waitlist
-      </button>
     </div>
   );
 }
