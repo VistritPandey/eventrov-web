@@ -38,7 +38,7 @@ export default function About() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-indigo-600">About Us</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">YOUR EVENTS, ALL IN ONE PLACE.</h1>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Join the Community.</h1>
               
             </div>
           </div>

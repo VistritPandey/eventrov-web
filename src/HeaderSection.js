@@ -27,7 +27,7 @@ function HeaderSection() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-            Your Events, All in one place
+            Join the Community.
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
             Connect with venues, artists, and vendors effortlessly. Plan your event, or get booked - all in one platform.
