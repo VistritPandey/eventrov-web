@@ -61,11 +61,13 @@ function Post({ name, message, photoUrl, timestamp, image }) {
           <img src={image} alt="" className="rounded w-full h-64 object-cover" />
         </div>
       )}
+      {/*
       <div className="post__buttons flex justify-evenly">
         <InputOption Icon={BsFillHandThumbsUpFill} title="Like" color="gray" cursor="pointer" />
         <InputOption Icon={BsFillChatLeftFill} title="Comment" color="lightgreen" cursor="pointer" />
         <InputOption Icon={BsShareFill} title="Share" color="orange" cursor="pointer" />
       </div>
+      */}
       {showImageModal && (
         <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex items-center justify-center">
           <div className="max-w-screen-md w-full overflow-hidden">
