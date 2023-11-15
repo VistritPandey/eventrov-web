@@ -89,10 +89,15 @@ function Feed() {
     }
   };
 
+  const updateFeedImage = (newImage) => {
+    setfeedImage(newImage);
+  };
+
   return (
     <div className="feed">
       <Dashboard />
       <div className="feed__inputContainer">
+        {/*
         <div className="feed__input">
           <IoCreateOutline />
           <form>
@@ -107,9 +112,10 @@ function Feed() {
             </button>
           </form>
         </div>
+        */}
         <div className="feed__inputOptions">
           {/* Your input options here */}
-          <ImageUpload username={name} />
+          <ImageUpload username={name} updateFeedImage={updateFeedImage}/>
         </div>
       </div>
       {posts.map(
