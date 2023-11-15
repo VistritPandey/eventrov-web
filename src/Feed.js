@@ -18,6 +18,7 @@ import {
 import Post from "./Post";
 import "./Feed.css";
 import Dashboard from "./Dashboard";
+import ImageUpload from "./ImageUpload";
 
 function Feed() {
   const [user, loading, error] = useAuthState(auth);
@@ -108,6 +109,7 @@ function Feed() {
         </div>
         <div className="feed__inputOptions">
           {/* Your input options here */}
+          <ImageUpload username={name} />
         </div>
       </div>
       {posts.map(
