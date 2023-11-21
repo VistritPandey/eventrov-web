@@ -18,6 +18,7 @@ import {
 import Post from "./Post";
 import "./Feed.css";
 import Dashboard from "./Dashboard";
+import ImageUpload from "./ImageUpload";
 
 function Feed() {
   const [user, loading, error] = useAuthState(auth);
@@ -88,10 +89,15 @@ function Feed() {
     }
   };
 
+  const updateFeedImage = (newImage) => {
+    setfeedImage(newImage);
+  };
+
   return (
     <div className="feed">
       <Dashboard />
       <div className="feed__inputContainer">
+        {/*
         <div className="feed__input">
           <IoCreateOutline />
           <form>
@@ -106,8 +112,10 @@ function Feed() {
             </button>
           </form>
         </div>
+        */}
         <div className="feed__inputOptions">
           {/* Your input options here */}
+          <ImageUpload username={name} updateFeedImage={updateFeedImage}/>
         </div>
       </div>
       {posts.map(

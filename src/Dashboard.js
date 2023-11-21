@@ -59,11 +59,7 @@ function Dashboard() {
       >
         Logout
       </button>
-      <h1 className="text-white text-xl text-center mt-4">
-        </h1>
-      <h1 className="text-white text-xl text-center mt-4">
-        Thank you for joining the waitlist for our social community. Once you are accepted, you will receive an email from us inviting you to complete your profile.
-      </h1>
+      
     </div>
   );
 }
