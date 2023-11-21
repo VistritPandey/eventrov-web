@@ -70,7 +70,7 @@ function ImageUpload({ username, updateFeedImage }) {
           placeholder="Enter your text here...."
           onChange={(event) => setCaption(event.target.value)}
           value={caption}
-          className="flex-grow p-2 border border-gray-300 rounded text-black mr-2"
+          className="flex-grow border border-gray-300 rounded text-black mr-2"
         />
         <label className="text-yellow-500 p-4 cursor-pointer">
           <ImImage size={20} />
