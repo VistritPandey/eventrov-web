@@ -1,23 +1,23 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { FingerPrintIcon, StarIcon, ArrowTrendingUpIcon, UserIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
     name: 'Streamlining the Event Planning Process',
     description:
       'Eventrov provides an online marketplace platform that serves as a one-stop-shop for event planning. Our vision for the future is a thriving, globally-connected events industry that saves time and resources, and results in memorable high quality events',
-    icon: CloudArrowUpIcon,
+    icon: StarIcon,
   },
   {
     name: 'Comprehensive Offerings',
     description:
       'We connect event planners with a broad spectrum of service providers and vendors such as venue owners, security companies, DJs, artists, lighting/production companies, bartending companies, medical services, lawyers, marketing, graphic designers and more.',
-    icon: LockClosedIcon,
+    icon: UserIcon,
   },
   {
     name: 'Grow your career',
     description:
       'Eventrov offers a community for vendors and artists to market their services for free and attract more clients. Use SEO to your advantage to boost your reach and receive more bookings. Join our community and grow your network.',
-    icon: ArrowPathIcon,
+    icon: ArrowTrendingUpIcon,
   },
   {
     name: 'Advanced Technology',
@@ -29,10 +29,10 @@ const features = [
 
 export default function Feature() {
   return (
-    <div className="bg-black py-24 sm:py-32">
+    <div className="bg-black">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-5xl font-semibold leading-7 text-indigo-600">About Us</h2>
+          <h2 className="text-5xl font-semibold leading-7 text-indigo-500">About Us</h2>
           <p></p>
           {/*<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Everything you need for an event
